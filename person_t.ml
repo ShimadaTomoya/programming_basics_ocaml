@@ -1,26 +1,53 @@
 type person_t = {
   name : string;
-  height : float;
-  weight : float;
-  birth_month : int;
-  birth_day : int;
-  blood_type : string
+  shincho : float;
+  taiju : float;
+  tsuki : int;
+  hi : int;
+  ketsueki : string
 }
 
-let kenji = {
+let person1 = 
+  {name = "浅井"; 
+   shincho = 1.72; 
+   taiju = 58.5; 
+   tsuki = 9; 
+   hi = 17; 
+   ketsueki = "A" 
+} 
+ 
+let person2 = { 
+  name = "宮原"; 
+  shincho = 1.63; 
+  taiju = 55.0; 
+  tsuki = 6; 
+  hi = 30; 
+  ketsueki = "B" 
+} 
+ 
+let person3 = { 
+  name = "中村"; 
+  shincho = 1.68; 
+  taiju = 63.0; 
+  tsuki = 6; 
+  hi = 6; 
+  ketsueki = "O" 
+} 
+
+let person4 = {
   name = "kenji";
-  height = 156.3;
-  weight = 50.3;
-  birth_month = 5;
-  birth_day = 5;
-  blood_type = "A"
+  shincho = 156.3;
+  taiju = 50.3;
+  tsuki = 5;
+  hi = 5;
+  ketsueki = "A"
 }
 
-let sanae = {
+let person5 = {
   name = "sanae";
-  height = 156.3;
-  weight = 50.3;
-  birth_month = 5;
-  birth_day = 5;
-  blood_type = "AB"
+  shincho = 156.3;
+  taiju = 50.3;
+  tsuki = 5;
+  hi = 5;
+  ketsueki = "AB"
 }
