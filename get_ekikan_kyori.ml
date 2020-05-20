@@ -8,4 +8,5 @@ let rec get_ekikan_kyori eki1 eki2 ekikan_lst = match ekikan_lst with
     else get_ekikan_kyori eki1 eki2 rest
 
 let test1 = get_ekikan_kyori "茗荷谷" "新大塚" global_ekikan_list = 1.2
-let test1 = get_ekikan_kyori "新大塚" "茗荷谷" global_ekikan_list = 1.2
+let test2 = get_ekikan_kyori "新大塚" "茗荷谷" global_ekikan_list = 1.2
+let test3 = get_ekikan_kyori "新大塚" "乃木坂" global_ekikan_list = infinity
